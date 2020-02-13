@@ -53,3 +53,46 @@
   color: #3581f4;
   background-color: #ffffffe6;
 }
+
+.culture-stories {
+  background-color: #f4f5f7;
+}
+
+.culture-stories .block-title a {
+  color: #03030380;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.culture-item .info .summary {
+  color: #27272780;
+}
+
+.tags a {
+  background-color: #c2d4d7;
+}
+
+.more-stories .image {
+  width: 135px;
+}
+
+@media only screen and (min-device-width: 992px) {
+  .side-section-left {
+    width: 28.22%;
+  }
+
+  .center-section {
+    width: 40.62%;
+  }
+
+  .side-section-right {
+    width: 31.16%;
+  }
+
+  .culture-item {
+    width: 50%;
+  }
+}
