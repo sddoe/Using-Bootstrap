@@ -54,6 +54,15 @@
   background-color: #ffffffe6;
 }
 
+.sponsor-block .wrapper .image {
+  width: 100%;
+}
+
+.sponsor-block .info .summary {
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .culture-stories {
   background-color: #f4f5f7;
 }
@@ -79,17 +88,78 @@
   width: 135px;
 }
 
+.block-opinion .feature-article .block-title a {
+  color: #03030366;
+}
+
+.block-opinion .feature-article ul li .headshot {
+  width: 63px;
+  height: 63px;
+  flex: none;
+}
+
+.author {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+}
+
+.block-opinion .feature-article ul li .info {
+  flex: 1;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.latest-news .feature-article .block-title a {
+  color: #03030366;
+}
+
+.latest-news .feature-article ul li .image {
+  width: 135px;
+  flex: none;
+}
+
+.latest-news .feature-article ul li .info {
+  flex: 1;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.nl-signup {
+  background-color: #f4f5f6;
+}
+
+.n-title span {
+  flex: none;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat
+  #f72210;
+}
+
+.su {
+  font-size: 17px;
+  line-height: 17px;
+  background-color: #666;
+  display: inline-block;
+}
+
+.update {
+  font-size: 14px;
+  line-height: 14px;
+}
+
 @media only screen and (min-device-width: 992px) {
   .side-section-left {
-    width: 28.22%;
+    width: 29.22%;
   }
 
   .center-section {
-    width: 40.62%;
+    width: 42.62%;
   }
 
   .side-section-right {
-    width: 31.16%;
+    width: 28.16%;
   }
 
   .culture-item {
