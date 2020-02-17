@@ -339,6 +339,45 @@ a {
   display: block;
 }
 
+.block-title {
+  color: #f72210;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.block-row {
+  margin: 0 -15px;
+}
+
+.block-column {
+  width: 33.33333333%;
+  padding: 0 15px;
+}
+
+.block-column article .image a img {
+  width: 100%;
+  display: block;
+}
+
+.block-column article h4 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.feature-list {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.feature-list ul li .image {
+  flex: none;
+  width: 135px;
+}
+
+.feature-list ul li .info {
+  flex: 1;
+}
+
 @media only screen and (min-device-width: 992px) {
   .side-section-left {
     width: 29.22%;
