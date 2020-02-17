@@ -284,6 +284,61 @@ a {
   line-height: 22px;
 }
 
+.galleries-title span {
+  flex: none;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.galleries-title span::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.galleries-section-container {
+  margin: 0 -15px;
+}
+
+.first-gallerie {
+  clear: left;
+}
+
+.galleries-section-container article {
+  width: 33.33333333%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.count-link {
+  width: 70px;
+  height: 52px;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.galleries-section-container article h4 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.galleries-section-container article .image a img {
+  width: 100%;
+  display: block;
+}
+
 @media only screen and (min-device-width: 992px) {
   .side-section-left {
     width: 29.22%;
