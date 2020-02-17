@@ -138,8 +138,7 @@ a {
   flex: none;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat
-  #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
 .su {
@@ -174,13 +173,16 @@ a {
   flex: none;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat
-  #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.top-section-magazine {
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .row-top {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin: 0 -15px;
 }
 
 .row-top article {
@@ -260,6 +262,26 @@ a {
   padding: 0 7px;
   line-height: 26px;
   margin: 0;
+}
+
+.editors-pick-title span {
+  flex: none;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.editors-pick-container {
+  margin: 0 -15px;
+}
+
+.editors-pick-container article {
+  width: 25%;
+}
+
+.editors-pick-container article h3 {
+  font-size: 22px;
+  line-height: 22px;
 }
 
 @media only screen and (min-device-width: 992px) {
