@@ -6,6 +6,9 @@ a {
 .top-nav {
   background-color: #f72210;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .top-center a svg {
@@ -39,6 +42,21 @@ a {
   font-size: 18px;
 }
 
+.main-section {
+  position: relative;
+  z-index: 0;
+}
+
+.center-section {
+  position: sticky;
+  top: 0;
+}
+
+.side-section-right {
+  position: sticky;
+  top: 0;
+}
+
 .block-title {
   color: #03030366;
 }
@@ -60,6 +78,10 @@ a {
 }
 
 .sponsor-block .wrapper .image {
+  width: 100%;
+}
+
+.sponsor-block .wrapper .image a img {
   width: 100%;
 }
 
@@ -194,7 +216,7 @@ a {
   position: absolute;
   top: 0;
   left: 50%;
-  width: auto;
+  width: 120%;
   height: 100%;
 }
 
@@ -229,7 +251,7 @@ a {
   position: absolute;
   top: 0;
   left: 50%;
-  width: auto;
+  width: 120%;
   height: 100%;
 }
 
@@ -251,12 +273,12 @@ a {
   position: absolute;
   top: 0;
   left: 50%;
-  width: auto;
+  width: 115%;
   height: 100%;
 }
 
 .last-article .wrapper .category {
-  z-index: 1;
+  /* z-index: 1; */
   background-color: #f72210;
   color: white;
   padding: 0 7px;
@@ -379,8 +401,8 @@ a {
 }
 
 .subscribe-block::before {
-  left: -30px;
-  right: -30px;
+  left: 0;
+  right: 0;
   content: "";
   display: block;
   background-color: #f4f5f6;
@@ -428,7 +450,7 @@ a {
 
 .subscribe-info {
   flex: 1;
-  padding: 39px;
+  padding: 30px;
 }
 
 .subscribe-info h3 {
@@ -453,7 +475,7 @@ a {
   width: 48%;
   max-width: 191px;
   background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
-  padding-bottom: 292px;
+  padding-bottom: 360px;
 }
 
 .column-container-2 .block-title {
@@ -494,6 +516,106 @@ a {
   font-size: 14px;
   line-height: 15px;
   color:#666;
+}
+
+@media only screen and (max-device-width: 1340px) and (min-device-width: 1108px) {
+  .subscribe-row .column-container {
+    width: 58.33333333%;
+  }
+
+  .subscribe-content {
+    flex-flow: row;
+  }
+
+  .subscribe-row .column-container-2 {
+    width: 41.66666667%;
+  }
+
+  .newsletter-content {
+    flex-flow: row;
+  }
+}
+
+@media only screen and (max-device-width: 1107px) and (min-device-width: 858px) {
+  .subscribe-row {
+    flex-wrap: wrap;
+  }
+
+  .subscribe-row .column-container {
+    width: 100%;
+  }
+
+  .subscribe-content {
+    flex-flow: row;
+  }
+
+  .subscribe-row .column-container-2 {
+    width: 100%;
+  }
+
+  .newsletter-content {
+    flex-flow: row;
+  }
+}
+
+@media only screen and (max-device-width: 857px)and (min-device-width: 361px) {
+  .subscribe-row {
+    flex-wrap: wrap;
+  }
+  
+  .subscribe-row .column-container {
+    width: 100%;
+  }
+
+  .subscribe-content {
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .subscribe-row .column-container-2 {
+    width: 100%;
+  }
+
+  .newsletter-content {
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .newsletter-image {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 192px;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  .subscribe-row {
+    flex-wrap: wrap;
+  }
+  
+  .subscribe-row .column-container {
+    width: 100%;
+  }
+
+  .subscribe-content {
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subscribe-row .column-container-2 {
+    width: 100%;
+  }
+
+  .newsletter-image {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 192px;
+  }
 }
 
 @media only screen and (min-device-width: 992px) {
