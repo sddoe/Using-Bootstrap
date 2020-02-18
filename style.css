@@ -165,6 +165,11 @@ a {
   padding-bottom: 100%;
 }
 
+.feature-list ul li .image {
+  flex: none;
+  width: 135px;
+}
+
 .sponsor-block .wrapper .image {
   width: 100%;
 }
@@ -195,11 +200,6 @@ a {
 .block-column article .image a img {
   width: 100%;
   display: block;
-}
-
-.feature-list ul li .image {
-  flex: none;
-  width: 135px;
 }
 
 .sponsor-block .wrapper .image a img {
