@@ -81,15 +81,17 @@ a {
   z-index: 0;
 }
 
-/* .center-section {
-  position: sticky;
-  top: 0;
+.side-section-left {
+  width: 29.11%;
+}
+
+.center-section {
+  width: 41.89%;
 }
 
 .side-section-right {
-  position: sticky;
-  top: 0;
-} */
+  width: 29%;
+}
 
 .block-title {
   color: #03030366;
@@ -135,6 +137,10 @@ a {
 .title {
   font-size: 20px;
   line-height: 22px;
+}
+
+.culture-item {
+  width: 50%;
 }
 
 .culture-item .info .summary {
