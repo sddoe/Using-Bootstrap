@@ -43,9 +43,44 @@ a {
   right: 0;
 }
 
+.bottom-nav ul li {
+  flex-grow: 1;
+  text-align: center;
+}
+
 .small-nav-bar .top-right ul li:last-child {
   background-color: #f72210;
   color: white;
+}
+
+.subscribe a {
+  color: #f72210;
+  padding: 0 8px;
+}
+
+.category a {
+  color: #f72210;
+}
+
+.tags a {
+  background-color: #c2d4d7;
+}
+
+.row-top article h5 a {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.culture-stories .block-title a {
+  color: #03030380;
+}
+
+.block-opinion .feature-article .block-title a {
+  color: #03030366;
+}
+
+.latest-news .feature-article .block-title a {
+  color: #03030366;
 }
 
 .small-nav-bar .top-right ul li:last-child a {
@@ -57,19 +92,9 @@ a {
   color: #f72210;
 }
 
-.subscribe a {
-  color: #f72210;
-  padding: 0 8px;
-}
-
 .bottom-nav {
   line-height: 24px;
   font-size: 20px;
-}
-
-.bottom-nav ul li {
-  flex-grow: 1;
-  text-align: center;
 }
 
 .bottom-nav form {
@@ -99,13 +124,9 @@ a {
 
 .category {
   padding: 8px 15px 9px;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   bottom: 0;
   left: 0;
-}
-
-.category a {
-  color: #f72210;
 }
 
 .sponsor-block .wrapper .category {
@@ -113,8 +134,38 @@ a {
   background-color: #ffffffe6;
 }
 
+.more-stories .image {
+  width: 135px;
+}
+
+.row-top article .image {
+  padding-bottom: 100%;
+}
+
+.bottom-row article .image {
+  padding-bottom: 100%;
+}
+
 .sponsor-block .wrapper .image {
   width: 100%;
+}
+
+.row-top article .image a img {
+  transform: translate(-50%, 0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 120%;
+  height: 100%;
+}
+
+.bottom-row article .image a img {
+  transform: translate(-50%, 0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 120%;
+  height: 100%;
 }
 
 .sponsor-block .wrapper .image a img {
@@ -130,10 +181,6 @@ a {
   background-color: #f4f5f7;
 }
 
-.culture-stories .block-title a {
-  color: #03030380;
-}
-
 .title {
   font-size: 20px;
   line-height: 22px;
@@ -145,18 +192,6 @@ a {
 
 .culture-item .info .summary {
   color: #27272780;
-}
-
-.tags a {
-  background-color: #c2d4d7;
-}
-
-.more-stories .image {
-  width: 135px;
-}
-
-.block-opinion .feature-article .block-title a {
-  color: #03030366;
 }
 
 .block-opinion .feature-article ul li .headshot {
@@ -175,10 +210,6 @@ a {
   flex: 1;
   font-size: 15px;
   line-height: 21px;
-}
-
-.latest-news .feature-article .block-title a {
-  color: #03030366;
 }
 
 .latest-news .feature-article ul li .image {
@@ -253,31 +284,13 @@ a {
   width: 33.33333333%;
 }
 
-.row-top article .image a img {
-  transform: translate(-50%,0%);
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 120%;
-  height: 100%;
-}
-
-.row-top article .image {
-  padding-bottom: 100%;
-}
-
 .first-cat {
-  background-color:#f72210;
-  color:white;
+  background-color: #f72210;
+  color: white;
 }
 
 .category span {
   display: inline-block;
-}
-
-.row-top article h5 a {
-  font-size: 16px;
-  line-height: 16px;
 }
 
 .bottom-row {
@@ -286,19 +299,6 @@ a {
 
 .bottom-row article {
   width: 25%;
-}
-
-.bottom-row article .image a img {
-  transform: translate(-50%,0%);
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 120%;
-  height: 100%;
-}
-
-.bottom-row article .image {
-  padding-bottom: 100%;
 }
 
 .bottom-row article h5 a {
@@ -311,7 +311,7 @@ a {
 }
 
 .last-article .wrapper .image a img {
-  transform: translate(-50%,0%);
+  transform: translate(-50%, 0%);
   position: absolute;
   top: 0;
   left: 50%;
@@ -570,7 +570,7 @@ a {
 .footer-links {
   font-size: 14px;
   line-height: 15px;
-  color:#666;
+  color: #666;
 }
 
 @media only screen and (max-device-width: 1340px) and (min-device-width: 1108px) {
@@ -625,7 +625,7 @@ a {
   .subscribe-row {
     flex-wrap: wrap;
   }
-  
+
   .subscribe-row .column-container {
     width: 100%;
   }
@@ -657,13 +657,13 @@ a {
 
 @media only screen and (max-device-width: 991px) {
   .header {
-    display:none;
+    display: none;
   }
 
   .main-section {
     flex-wrap: wrap;
   }
-  
+
   .side-section-left {
     width: 45%;
   }
@@ -703,7 +703,7 @@ a {
   .main-section {
     flex-wrap: wrap;
   }
-  
+
   .side-section-left {
     width: 100%;
     order: 2;
@@ -881,7 +881,7 @@ a {
   .subscribe-row {
     flex-wrap: wrap;
   }
-  
+
   .subscribe-row .column-container {
     width: 100%;
   }
